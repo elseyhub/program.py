@@ -4,10 +4,10 @@ import sys
 import os
 
 def main():
-    #Your main code here
+    
     print("script is running...")
-    # Example error for demonstration
-    x = 1/0 # This will run a zerodivision error
+    
+    x = 1/0 
 
 def run_with_self_healing():
     while True:
@@ -21,4 +21,5 @@ def run_with_self_healing():
             time.sleep(5)
 if _name_ == "__main__":
     run_with_self_healing()
+
     
